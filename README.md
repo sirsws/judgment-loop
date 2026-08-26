@@ -127,7 +127,9 @@ The loop is intentionally open: action closes; belief remains updateable.
 - “We shipped the feature. Did it improve the real target?”
 - “I understood the explanation. Can I reconstruct and transfer it without AI?”
 
-See [examples](examples/README.md) for before/after cases and [trigger evals](evals/trigger-cases.md) for separate false-positive, false-negative, and evidence-update checks.
+See [examples](examples/README.md) for before/after cases and the runnable [evaluation scorecard](evals/trigger-cases.md), which reports false-positive activations, false negatives, and evidence-update errors separately.
+
+Latest smoke baseline: [Codex 5.5, 2026-08-26](evals/results/2026-08-26-codex-5.5.md) — 7/7 cases observed, with the three failure classes reported separately.
 
 ## Design principles
 

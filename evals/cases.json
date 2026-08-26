@@ -1,0 +1,63 @@
+[
+  {
+    "id": "positive-production-replacement",
+    "class": "positive",
+    "severity": "high",
+    "turns": ["This new model looks much better. Let's replace the production one."],
+    "expected_activation": "full"
+  },
+  {
+    "id": "positive-recurring-failure",
+    "class": "positive",
+    "severity": "medium",
+    "turns": ["I keep abandoning projects after two weeks. Why does this repeat?"],
+    "expected_activation": "full"
+  },
+  {
+    "id": "negative-translation",
+    "class": "negative",
+    "severity": "low",
+    "turns": ["Translate 'The build passed' into Chinese."],
+    "expected_activation": "none"
+  },
+  {
+    "id": "negative-file-rename",
+    "class": "negative",
+    "severity": "low",
+    "turns": ["Rename draft.md to final.md."],
+    "expected_activation": "none"
+  },
+  {
+    "id": "update-material-evidence",
+    "class": "evidence_update",
+    "severity": "high",
+    "turns": [
+      "A new model reports a 12% benchmark gain. Should we replace production?",
+      "An independent, preregistered same-sample test now reproduces the gain across regimes, survives leakage checks, and remains positive after cost. What changes?"
+    ],
+    "expected_activation": "full",
+    "expected_update": "change"
+  },
+  {
+    "id": "update-proxy-stars",
+    "class": "evidence_update",
+    "severity": "medium",
+    "turns": [
+      "My project has almost no users. Should I publish it to every marketplace?",
+      "A promotional post tripled the repository stars, but no one has installed it or reported using it. Should I now expand everywhere?"
+    ],
+    "expected_activation": "full",
+    "expected_update": "hold"
+  },
+  {
+    "id": "update-disconfirming-leakage",
+    "class": "evidence_update",
+    "severity": "high",
+    "turns": [
+      "This paper reports a large improvement. Is it strong enough to adopt?",
+      "The check found target leakage and the gain disappears on a clean split. What now?"
+    ],
+    "expected_activation": "full",
+    "expected_update": "strengthen_stop"
+  }
+]

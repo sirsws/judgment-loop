@@ -2,6 +2,16 @@
 
 Run these prompts in fresh conversations without naming the skill. Evaluate behavior, not exact wording.
 
+The machine-readable case manifest is [cases.json](cases.json). Record reviewed observations as JSONL using [observations.example.jsonl](observations.example.jsonl), then run:
+
+```bash
+python scripts/score_evals.py --results path/to/observations.jsonl
+```
+
+The scorer deliberately reports false-positive activations, false negatives, and evidence-update errors separately. Human review still decides what the response actually did; the script makes the accounting reproducible rather than pretending that wording heuristics can judge reasoning quality.
+
+Committed forward-test baselines live in [results/](results/). Keep model, date, case manifest, and concise observation evidence with every run; never present one model run as general proof.
+
 ## Positive cases: should activate
 
 1. “Should I quit my job and spend a year on this product?”
