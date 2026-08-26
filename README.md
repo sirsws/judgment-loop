@@ -20,6 +20,33 @@ Judgment Loop is an open Agent Skill for consequential choices, uncertain claims
 
 It is not a prompt that makes an AI sound deeper. It is a guardrail against answering the wrong question beautifully.
 
+## See the difference in 30 seconds
+
+**Ask an agent**
+
+> I built an Agent Skill that feels useful. Should I publish it to every marketplace now?
+
+**A fluent answer may optimize the proxy**
+
+> Package it, polish the README, list the major platforms, and publish everywhere.
+
+That solves distribution before testing whether the skill creates a useful difference for anyone.
+
+**Judgment Loop changes the job**
+
+- **Provisional judgment:** publish one canonical version, not everywhere yet.
+- **Real target:** credible external-use evidence; listings, stars, and downloads are proxies.
+- **Verified fact:** the install path and trigger contract can be tested.
+- **Untested hypothesis:** strangers experience this as more than another “think deeply” prompt.
+- **Strongest failure:** users cannot see an immediate behavioral difference.
+- **Cheapest test:** fresh install plus positive, negative, and boundary prompts.
+- **Stop or expand:** add distribution only after concrete external feedback.
+
+Try the same question after installation:
+
+```text
+$judgment-loop I built an Agent Skill that feels useful. Should I publish it to every marketplace now?
+```
 ## Why it exists
 
 AI can produce a coherent answer before a person has identified the real target. That creates four common failures:
