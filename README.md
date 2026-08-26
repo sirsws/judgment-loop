@@ -127,7 +127,7 @@ The loop is intentionally open: action closes; belief remains updateable.
 - “We shipped the feature. Did it improve the real target?”
 - “I understood the explanation. Can I reconstruct and transfer it without AI?”
 
-See [examples](examples/README.md) for before/after cases and [trigger evals](evals/trigger-cases.md) for the routing contract.
+See [examples](examples/README.md) for before/after cases and [trigger evals](evals/trigger-cases.md) for separate false-positive, false-negative, and evidence-update checks.
 
 ## Design principles
 

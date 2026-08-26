@@ -127,7 +127,7 @@ $judgment-loop 我应该现在发布，还是继续完善？
 - “功能已经上线，它真的改善了原目标吗？”
 - “我听懂了这个解释，离开 AI 后能重建和迁移吗？”
 
-更多内容见[使用案例](examples/README.md)和[触发测试](evals/trigger-cases.md)。
+更多内容见[使用案例](examples/README.md)和[触发测试](evals/trigger-cases.md)；后者分别检查误触发、漏触发和证据更新错误。
 
 ## 设计原则
 
