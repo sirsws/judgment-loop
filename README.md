@@ -13,7 +13,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/license-MIT--0-F2C94C.svg"></a>
   <a href="https://skills.sh/sirsws/judgment-loop"><img alt="skills.sh installs" src="https://skills.sh/b/sirsws/judgment-loop"></a>
-  <img alt="Version 1.1.1" src="https://img.shields.io/badge/version-1.1.1-2563EB.svg">
+  <img alt="Version 1.1.2" src="https://img.shields.io/badge/version-1.1.2-2563EB.svg">
 </p>
 
 Judgment Loop is an open Agent Skill for consequential choices, uncertain claims, recurring failures, serious learning, and evidence-based review. It turns vague confidence into a provisional judgment, a discriminating test, and an action the user still owns.

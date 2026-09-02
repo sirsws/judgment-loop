@@ -2,3 +2,5 @@
 Thumbs.db
 .clawhub/
 .publish/
+__pycache__/
+*.py[cod]
