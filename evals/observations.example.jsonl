@@ -1,7 +1,2 @@
-{"case_id":"positive-production-replacement","observed_activation":"full","observed_update":"not_applicable","evidence":"The response identified production risk and proposed a bounded falsification test."}
-{"case_id":"positive-recurring-failure","observed_activation":"full","observed_update":"not_applicable","evidence":"The response examined the repeated pattern and proposed a discriminating next action."}
-{"case_id":"negative-translation","observed_activation":"none","observed_update":"not_applicable","evidence":"The response translated directly without inserting the loop."}
-{"case_id":"negative-file-rename","observed_activation":"none","observed_update":"not_applicable","evidence":"The response performed or explained the direct action without inserting the loop."}
-{"case_id":"update-material-evidence","observed_activation":"full","observed_update":"change","evidence":"The action changed from hold to a bounded pilot after material evidence arrived."}
-{"case_id":"update-proxy-stars","observed_activation":"full","observed_update":"hold","evidence":"The response did not treat stars as user-value evidence."}
-{"case_id":"update-disconfirming-leakage","observed_activation":"full","observed_update":"strengthen_stop","evidence":"The response strengthened the stop after leakage invalidated the result."}
+{"case_id":"quick-recurring-rework","observed_activation":"light","observed_mode":"quick","reviewer":"reviewer-id","evidence":"The response stayed brief, identified the repeated rework pattern, and proposed one distinguishing user test.","raw_output":"raw/quick-recurring-rework.txt"}
+{"case_id":"negative-translation","observed_activation":"none","observed_mode":null,"reviewer":"reviewer-id","evidence":"The response translated directly without introducing the skill.","raw_output":"raw/negative-translation.txt"}

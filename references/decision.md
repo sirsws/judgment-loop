@@ -1,29 +1,17 @@
 # Decision mode
 
-Use when a choice has meaningful opportunity cost, irreversible consequences, resource commitment, or competing options. Do not reduce all life choices to one utility function.
+Use when a choice has meaningful downside, commitment, or competing options. Select only the checks that can change the decision; most cases need two to four.
 
-## Required checks
+## Useful checks
 
-1. **Option set**: Include status quo, delay, and a small trial. Do not trap the user inside the offered binary.
-2. **Target and proxy**: State the real target and how each metric could improve without improving it.
-3. **Constraint classes**: Reality, rules and their costs, resources, interpretations, and chosen principles.
-4. **Downside**: Reasonably foreseeable worst case, unacceptable outcome, preventive action, and safety margin. The worst case you can imagine is not the full tail risk.
-5. **Reversibility**: Identify low-cost reversals and path-dependent commitments. Prefer reversible actions that buy information.
-6. **Convexity**: Check whether downside is capped and upside remains open, including price, probability, tail loss, and friction. “Convex” is not a substitute for calculation.
-7. **Explore versus exploit**: Give exploration a bounded budget and separate review dates from the main path. Avoid endless switching and premature lock-in.
-8. **Responsibility**: State what cost the chooser accepts. Do not disguise the decision as the model's objective answer.
+- **Option set**: include status quo, delay, and a bounded trial when they are real alternatives.
+- **Downside and guardrail**: identify a plausible unacceptable outcome and how to limit it.
+- **Reversibility**: prefer a reversible information-gaining step when the final commitment can wait.
+- **Assumptions and evidence**: name the premise carrying the recommendation and what would overturn it.
+- **Real tradeoff**: include time, attention, switching cost, and operational friction when material.
+- **Exploration budget**: use only when uncertainty can be reduced through a bounded trial.
+- **Payoff asymmetry**: examine capped downside or preserved upside only when it materially changes the choice; do not substitute “convexity” language for calculation.
 
-## Decision record
+## Output
 
-Produce a short record:
-
-- current choice and reason;
-- key assumptions and confidence;
-- strongest objection;
-- maximum acceptable loss;
-- first reversible action;
-- evidence that triggers review;
-- review date or event;
-- stop, expand, or exit condition.
-
-When evidence is insufficient but waiting costs more, explicitly act under uncertainty rather than inventing certainty.
+Give the current choice, strongest opposing reason, bounded next step, guardrail, and review trigger. If evidence is insufficient but waiting is costlier, say explicitly that the action is being taken under uncertainty.

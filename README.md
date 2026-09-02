@@ -13,10 +13,10 @@
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/license-MIT--0-F2C94C.svg"></a>
   <a href="https://skills.sh/sirsws/judgment-loop"><img alt="skills.sh installs" src="https://skills.sh/b/sirsws/judgment-loop"></a>
-  <img alt="Version 1.0.1" src="https://img.shields.io/badge/version-1.0.1-2563EB.svg">
+  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-2563EB.svg">
 </p>
 
-Judgment Loop is an open Agent Skill for consequential choices, uncertain claims, recurring failures, serious learning, and evidence-based review. It turns vague confidence into a provisional judgment, a cheap falsification test, and an action the user still owns.
+Judgment Loop is an open Agent Skill for consequential choices, uncertain claims, recurring failures, serious learning, and evidence-based review. It turns vague confidence into a provisional judgment, a discriminating test, and an action the user still owns.
 
 It is not a prompt that makes an AI sound deeper. It is a guardrail against answering the wrong question beautifully.
 
@@ -24,28 +24,28 @@ It is not a prompt that makes an AI sound deeper. It is a guardrail against answ
 
 **Ask an agent**
 
-> I built an Agent Skill that feels useful. Should I publish it to every marketplace now?
+> A volunteer workshop received excellent satisfaction scores. Should we roll it out to the whole company?
 
 **A fluent answer may optimize the proxy**
 
-> Package it, polish the README, list the major platforms, and publish everywhere.
+> The pilot was popular, so prepare the company-wide rollout.
 
-That solves distribution before testing whether the skill creates a useful difference for anyone.
+That treats participant satisfaction as proof that the program improves the outcome it was created for.
 
 **Judgment Loop changes the job**
 
-- **Provisional judgment:** publish one canonical version, not everywhere yet.
-- **Real target:** credible external-use evidence; listings, stars, and downloads are proxies.
-- **Verified fact:** the install path and trigger contract can be tested.
-- **Untested hypothesis:** strangers experience this as more than another “think deeply” prompt.
-- **Strongest failure:** users cannot see an immediate behavioral difference.
-- **Cheapest test:** fresh install plus positive, negative, and boundary prompts.
-- **Stop or expand:** add distribution only after concrete external feedback.
+- **Provisional judgment:** do not scale yet; run one representative follow-up pilot.
+- **Real target:** improve cross-team handoffs, not attendance or satisfaction scores.
+- **Verified fact:** volunteers rated the first workshop highly.
+- **Untested hypothesis:** ordinary teams will change behavior after the workshop.
+- **Strongest failure:** self-selected volunteers may not represent the rollout population.
+- **Cheapest test:** predeclare one handoff outcome and a stop condition for a second team.
+- **Stop or expand:** scale only if the target outcome improves without unacceptable cost.
 
 Try the same question after installation:
 
 ```text
-$judgment-loop I built an Agent Skill that feels useful. Should I publish it to every marketplace now?
+$judgment-loop A volunteer workshop received excellent satisfaction scores. Should we roll it out to the whole company?
 ```
 ## Why it exists
 
@@ -63,10 +63,10 @@ Judgment Loop interrupts that pattern without turning every task into a ceremony
 | Mode | Use it for | Core move |
 |---|---|---|
 | **Quick** | A vague problem or solution attachment | Real target → strongest failure → cheapest action |
-| **Decision** | Costly or hard-to-reverse choices | Downside, reversibility, convexity, exploration budget |
-| **Research** | Papers, reports, data and causal claims | Mechanism, increment, evidence, boundary, falsification |
-| **Learning** | Understanding that must transfer | Reconstruct, counterexample, transfer, no-AI recall |
-| **Review** | Work that has produced real results | Prediction gap, evidence update, keep/remove, next cycle |
+| **Decision** | Costly or hard-to-reverse choices | Downside, reversibility, key assumption, guardrail |
+| **Research** | Papers, reports, data and causal claims | Claim, evidence, boundary, strongest alternative |
+| **Learning** | Understanding that must transfer | Reconstruction, boundary, transfer, recall |
+| **Review** | Work that has produced real results | Original target, observed result, prediction gap, update |
 
 ## Install
 
@@ -107,29 +107,24 @@ The skill also supports implicit activation when meaningful consequences and unc
 ```text
 Provisional judgment
     ↓
-Real target vs. proxy
+Real target and ownership
     ↓
-Verified facts / inferences / hypotheses
+Load-bearing assumption
     ↓
 Strongest failure reason
     ↓
-Cheapest falsification
+Cheapest discriminating test
     ↓
-User-owned action and stopping condition
+User-owned action and review trigger
 ```
 
-The loop is intentionally open: action closes; belief remains updateable.
+Use only the moves that change the judgment. The loop is intentionally open: action closes; belief remains updateable.
 
-## Examples
+## Examples and evaluation
 
-- “This paper reports a strong result. Should we integrate the method?”
-- “I keep switching projects. Is exploration still helping me?”
-- “We shipped the feature. Did it improve the real target?”
-- “I understood the explanation. Can I reconstruct and transfer it without AI?”
+See [examples](examples/README.md) for behavioral contrasts. They are deliberately separate from the single-source [cross-domain evaluation manifest](evals/cases.json).
 
-See [examples](examples/README.md) for before/after cases and the runnable [evaluation scorecard](evals/trigger-cases.md), which reports false-positive activations, false negatives, and evidence-update errors separately.
-
-Latest smoke baseline: [Codex 5.5, 2026-08-26](evals/results/2026-08-26-codex-5.5.md) — 7/7 cases observed, with the three failure classes reported separately.
+The [reviewed evaluation protocol](evals/trigger-cases.md) scores activation depth, mode selection, evidence updates, missing cases, and error severity separately. Version 1.1.0 has no claimed behavioral baseline until a raw-output-preserving, independently reviewed run is completed.
 
 ## Design principles
 
@@ -151,7 +146,7 @@ SKILL.md                  Runtime entrypoint
 references/              Decision, research, learning, and review modes
 agents/openai.yaml       Codex interface and implicit invocation policy
 examples/                Realistic usage examples
-evals/                   Positive, negative, and boundary trigger cases
+evals/                   Cross-domain manifest and reviewed scoring protocol
 translations/zh-CN/      Chinese reference translation
 assets/                  Project visual assets
 ```

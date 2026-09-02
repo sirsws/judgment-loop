@@ -1,54 +1,16 @@
 # Review mode
 
-Use when an action, experiment, project, or period has produced real results. The goal is to let reality update the next judgment, not to write a flattering story or issue a vague self-rating.
+Use when action has produced evidence that should update the next judgment. The purpose is evidence update, not a complete diary of the period.
 
-## Review loop
+## Select the relevant checks
 
-1. **Original target**: Recover the reality that was meant to change, the success criterion, key prediction, and stopping condition. If there was no prior record, say “unknown in advance.”
-2. **Actual result**: List observable facts before feelings and explanations. Separate target improvement, proxy growth, noise, and results not yet obtained.
-3. **Prediction gap**: Compare forecast and reality. State which assumptions gained support, weakened, or remain untested. One success or failure does not prove the whole causal story.
-4. **Feedback quality**: Sort signals from artifacts, users, collaborators, environment, and personal state. Separate outcome signal, preference, politeness, and noise.
-5. **Judgment update**: State what remains believed, what is no longer believed, new hypotheses, and evidence that could still change the view.
-6. **Responsibility and state**: Separate external constraints, the user's choices, and controllable action. Ask whether the user accepts the way they acted and its cost, without turning one event into permanent identity.
-7. **Keep and remove**: Specify what continues, stops, shrinks, and needs protection. Remove low-value complexity, not necessary training, exploration, or responsibility.
-8. **Next cycle**: Set one main question, one key constraint, one visible artifact, and one review date or event.
+- **Original target**: recover the intended real-world change and any recorded prediction or stop condition. Mark absent prior records as unknown.
+- **Observed result**: separate facts, feelings, interpretations, proxy movement, and unresolved outcomes.
+- **Prediction gap**: state which premise was supported, weakened, or left untested.
+- **Feedback quality**: distinguish outcome evidence from preference, politeness, noise, and environmental constraint.
+- **Judgment update**: say what to keep, change, stop, or test next, and what evidence would reopen the decision.
+- **Responsibility**: separate external constraints, the user's choices, and controllable next actions without assigning a permanent identity.
 
 ## Output
 
-```markdown
-# Review Loop
-
-## Provisional judgment
-...
-
-## Original target and actual result
-- Original target:
-- Original prediction:
-- Observed facts:
-- Proxy mismatch:
-
-## Judgment update
-- Supported:
-- Weakened:
-- Unknown:
-- Strongest alternative explanation:
-
-## Responsibility and state
-- External constraints:
-- My choices:
-- Do I accept this way of acting and its cost?
-
-## Keep and remove
-- Continue:
-- Stop:
-- Reduce:
-- Protect:
-
-## Next cycle
-- One question:
-- One constraint:
-- One artifact:
-- Review condition:
-```
-
-When evidence is insufficient, label the result “reflection,” not “evidence review.” If the user only wants to record or express an experience, do not force it into an optimization project.
+Lead with the updated judgment. Include only the original target, decisive evidence, changed premise, and next action or review trigger needed for this case. If the evidence is too thin, call it reflection rather than evidence-based review.
