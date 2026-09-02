@@ -1,6 +1,6 @@
 # Review mode
 
-Use when action has produced evidence that should update the next judgment. The purpose is evidence update, not a complete diary of the period.
+Update the next judgment from observed evidence rather than writing a complete diary of the period.
 
 ## Select the relevant checks
 

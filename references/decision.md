@@ -1,6 +1,6 @@
 # Decision mode
 
-Use when a choice has meaningful downside, commitment, or competing options. Select only the checks that can change the decision; most cases need two to four.
+Select only the checks that can change the decision; most cases need two to four.
 
 ## Useful checks
 

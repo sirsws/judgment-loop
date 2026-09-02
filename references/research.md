@@ -1,6 +1,6 @@
 # Research mode
 
-Use for papers, reports, data claims, causal explanations, and judgments that depend on current facts. Verify primary material first. Mark unavailable evidence as unverified rather than filling gaps from memory.
+Verify primary material first. Mark unavailable evidence as unverified rather than filling gaps from memory.
 
 ## Select load-bearing checks
 

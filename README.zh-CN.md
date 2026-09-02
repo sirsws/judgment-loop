@@ -13,7 +13,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/license-MIT--0-F2C94C.svg"></a>
   <a href="https://skills.sh/sirsws/judgment-loop"><img alt="skills.sh installs" src="https://skills.sh/b/sirsws/judgment-loop"></a>
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-2563EB.svg">
+  <img alt="Version 1.1.1" src="https://img.shields.io/badge/version-1.1.1-2563EB.svg">
 </p>
 
 Judgment Loop 是一个面向重要选择、不确定结论、反复失败、深度学习和证据复盘的开放 Agent Skill。它把模糊的确信转成暂定判断、区分性验证，以及仍由用户承担的现实行动。
@@ -124,7 +124,7 @@ $judgment-loop 我应该现在发布，还是继续完善？
 
 [使用案例](examples/README.md)展示行为差异，并与单一来源的[跨领域评测清单](evals/cases.json)明确分离。
 
-[人工复核评测协议](evals/trigger-cases.md)分别统计触发深度、模式选择、证据更新、缺失案例和错误严重度。1.1.0 在完成保留原始输出且经独立复核的运行前，不宣称已有行为基线。
+[人工复核评测协议](evals/trigger-cases.md)分别统计触发深度、模式选择、证据更新、缺失案例和错误严重度。当前版本在完成保留原始输出且经独立复核的运行前，不宣称已有行为基线。
 
 ## 设计原则
 

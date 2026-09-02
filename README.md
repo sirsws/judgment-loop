@@ -13,7 +13,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/license-MIT--0-F2C94C.svg"></a>
   <a href="https://skills.sh/sirsws/judgment-loop"><img alt="skills.sh installs" src="https://skills.sh/b/sirsws/judgment-loop"></a>
-  <img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-2563EB.svg">
+  <img alt="Version 1.1.1" src="https://img.shields.io/badge/version-1.1.1-2563EB.svg">
 </p>
 
 Judgment Loop is an open Agent Skill for consequential choices, uncertain claims, recurring failures, serious learning, and evidence-based review. It turns vague confidence into a provisional judgment, a discriminating test, and an action the user still owns.
@@ -124,7 +124,7 @@ Use only the moves that change the judgment. The loop is intentionally open: act
 
 See [examples](examples/README.md) for behavioral contrasts. They are deliberately separate from the single-source [cross-domain evaluation manifest](evals/cases.json).
 
-The [reviewed evaluation protocol](evals/trigger-cases.md) scores activation depth, mode selection, evidence updates, missing cases, and error severity separately. Version 1.1.0 has no claimed behavioral baseline until a raw-output-preserving, independently reviewed run is completed.
+The [reviewed evaluation protocol](evals/trigger-cases.md) scores activation depth, mode selection, evidence updates, missing cases, and error severity separately. The current version has no claimed behavioral baseline until a raw-output-preserving, independently reviewed run is completed.
 
 ## Design principles
 

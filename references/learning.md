@@ -1,6 +1,6 @@
 # Learning mode
 
-Use when the user needs retention, reconstruction, or transfer rather than an explanation alone. Do not turn every explanation into a curriculum.
+Do not turn every explanation into a curriculum.
 
 ## Select the smallest sufficient test
 
